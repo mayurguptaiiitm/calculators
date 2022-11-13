@@ -1,0 +1,6 @@
+Principal=int(input("initial amount to be invested: "))
+Rate=int(input("rate of interest per annum: "))
+Time=int(input("Time for amount to be invested in years: "))
+Final_Amount=Principal*(1+Rate*Time/100)
+print("You would get about: " + str(Final_Amount))
+print("Your Earnings would be : " + str(Final_Amount - Principal))

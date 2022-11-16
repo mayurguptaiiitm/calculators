@@ -1,0 +1,7 @@
+print("Enter the amount invested")
+investment=float(input())
+rent=float(input("Enter monthly rent expected: "))
+years = float(input("Enter number of years expected to hold property: "))
+print ("Anual Earnings : "+str(rent*12*years))
+print ("Yeild over investment per annum :"+str((((rent*12)/investment))*100))
+print ("Overall returns absolute % :" + str(((((rent*12)/investment))*100)*years))
